@@ -88,14 +88,17 @@ h4 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf  ;
   padding: 24px 0;
+  color: #2e2f42;
   position: relative;
 }
 
 .nav-item:hover,
 .nav-item:focus {
   color: #404bbf;
+}
+.first{
+  color:#404bbf
 }
 .first::after {
   position: absolute;
