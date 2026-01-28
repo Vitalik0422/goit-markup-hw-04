@@ -218,6 +218,17 @@ h4 {
   gap: 24px;
 }
 
+.features-svg-conainer{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99; 
+  margin-bottom: 8px;
+}
+
 .team-card-description-container {
   padding: 32px 0;
 }
@@ -308,8 +319,12 @@ h4 {
 .social-networks-links-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
-  margin-top: 8px;
+  align-items: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99; 
+  margin-bottom: 8px;
 }
 .social-networks-links-list-item{
   height: 40px;
