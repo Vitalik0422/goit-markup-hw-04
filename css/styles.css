@@ -365,7 +365,7 @@ h4 {
   color: #f4f4fd;
   padding: 40px 32px;
   line-height: 1.5;
-   letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   background-color: #4d5ae5;
   width: 100%;
   height: 100%;
@@ -421,4 +421,42 @@ h4 {
   .social-networks-links-list-item
   .link-social-media:focus {
   background-color: #31d0aa;
+}
+
+/* modal */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  width: 408px;
+  height: 584px;
+  padding: 24px;
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+}
+.modal-form {
+  width: 100%;
+}
+
+.input-name,
+.input-phone,
+.input-email {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+.textarea-comment{
+  width: 100%;
+
 }
